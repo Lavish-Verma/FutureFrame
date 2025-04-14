@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.welcome1{
+    background: url(bg1.jpg);
+    background-size: contain;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    justify-items: center;
+    align-items: center;
+    padding: 100px 80px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 95%;
+    /* background-color: aliceblue;  */
+    column-gap: 60px;
+    position: relative;
+}
+
+.block1 .para1{
+    font-size: 68px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.block2{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua;  */
+    align-items: flex-start;
+}
+.block2 .para2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+#getstarted{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid rgba(54, 255, 54, 0.783);
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.block3{
+    display: flex;
+    height: 600px;
+    width: 800px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.block3 img{
+    position:absolute;
+    height: 550px;
+    width: 750px;
+    object-fit: fill;
+}
+
+/* section : Benefits */
+.container {
+    max-width: 100vw;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 5px solid #0900af;; /* dark blue */
+    padding-left: 20px;
+    gap: 80px;
+  }
+  
+  .text-content {
+    flex: 1;
+    max-width: 600px;
+    /* padding: 10px; */
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .text-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0900af;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  
+  .text-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 4;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image-container {
+      margin-top: 20px;
+    }
+  }
+  
+  /* section: promotion */
+  .promotional-section{
+    background: url(bg1.jpg); 
+    background-size: fill;
+    min-height: 90vh;
+    min-width: 100vw;
+    background-position: center;
+    justify-items: center;
+    align-items: center;
+    padding: 100px 80px;
+    background-position: center;
+    position: relative;
+  }
+  .promotional-content{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .promotional-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.4;
+    padding-bottom: 30px;
+  }
+  
+  .promotional-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin-top: 10px;
+    line-height: 2;
+  }
+
+/* section: about */
+  #about {
+    padding: 60px 40px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  
+  .about-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #0900af;
+    margin-bottom: 70px;
+    line-height: 1.5;
+  }
+  
+  .about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .about-box {
+    flex: 1;
+    min-width: 280px;
+    max-width: 30%;
+  }
+  
+  .about-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .about-box p {
+    padding: 16px;
+    line-height: 1.6;
+  }
+  

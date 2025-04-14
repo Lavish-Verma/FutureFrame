@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Analysis{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url(bg1.jpg);
+    background-size: contain;
+
+}
+
+
+header{
+    /* background-color: rgb(255, 255, 255); */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+header button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(30, 30, 206);
+}
+
+.main_form{
+    display: flex;
+    flex-direction: column;
+    /* place-items: center; */
+    min-height: 100vh;
+    margin: 50px 200px ;
+    background-color: white;
+}
+.main_form form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 70px;
+    /* align-items: left;
+    justify-items: center; */
+}
+
+.data_loading{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.data_loading h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.data_loading label{
+    display: flex;
+    flex-direction: column;
+    /* height: 200px;
+    width: 700px; */
+    border: 5px blue;
+    border-style: dashed;
+    border-radius: 20px;
+    place-items: center;
+}
+label img{
+    height: 150px;
+    width: 200px;
+    object-fit: contain;
+    padding: 10px;
+}
+label span{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+.file-wrapper{
+    padding-top: 10px;
+}
+.file-wrapper p{
+    font-size: 15px;
+    /* font-weight: 700; */
+}
+
+.parameter-wrapper {
+    padding-top: 0px;
+  }
+  

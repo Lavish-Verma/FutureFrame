@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Forecast{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: #ffffff; 
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Forecast-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Forecast p{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.model-fitting{
+    display: flex;
+    flex-direction: column;
+}
+.model-fitting p{
+    font-weight: 600;
+}
+.model-fiiting-options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+}
+
+.message-box {
+    margin-top: 3px;
+    padding: 10px;
+    background-color: #e0ffe0;
+    color: green;
+    border-radius: 5px;
+    font-weight: bold;
+  }
